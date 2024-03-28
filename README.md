@@ -11,7 +11,7 @@
 I am using PureData/Plugdata to render the score, you will need:
 
 * [pd-else](https://github.com/porres/pd-else);
-* pd-cyclone[pd-cyclone](https://github.com/porres/pd-cyclone);
+* [pd-cyclone](https://github.com/porres/pd-cyclone);
 * [py4pd](https://github.com/charlesneimog/py4pd) (and Python);
 * [py4pd-upic](https://github.com/charlesneimog/py4pd-upic) and Inkscape;
 * [py4pd-orchidea](https://github.com/charlesneimog/py4pd-orchidea);
