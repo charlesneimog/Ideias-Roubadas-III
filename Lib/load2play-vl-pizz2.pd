@@ -5,7 +5,7 @@
 #X msg 140 278 open \$1;
 #X msg 9 249 start;
 #X obj 9 224 t b a b, f 38;
-#X obj 124 437 switch~;
+#X obj 124 414 switch~;
 #X msg 125 332 0;
 #X msg 254 278 1;
 #X obj 140 250 symbol;
@@ -15,7 +15,7 @@
 #X obj 76 120 t b f, f 12;
 #X obj 76 145 del 1 1 msec;
 #X msg 76 170 0;
-#X obj 9 462 *~, f 44;
+#X obj 9 436 *~, f 44;
 #X obj 434 299 sel 0;
 #X msg 435 330 0;
 #X obj 188 594 outlet~;
@@ -34,7 +34,7 @@
 #X obj 838 299 nbx 16 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #373737 #373737 0 256;
 #X obj 907 77 nbx 10 32 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #373737 #373737 0 256;
 #X obj 838 270 * 100;
-#X obj 9 499 soundtouch~;
+#X obj 9 470 soundtouch~;
 #X obj 838 355 nbx 10 23 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #373737 #373737 0 256;
 #X obj 838 326 expr pow(2 \, $f1/1200);
 #X obj 337 260 else/adsr~ 1 1 1 90;
