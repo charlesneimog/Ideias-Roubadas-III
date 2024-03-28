@@ -4,7 +4,7 @@
 
 <h2 align="center">Score/Draw</h2>
 
-<img src="https://github.com/charlesneimog/Ideias-Roubadas-III/raw/main/score.svg" alt="Image Description">
+<img align="center" src="https://github.com/charlesneimog/Ideias-Roubadas-III/raw/main/score.svg" alt="Image Description">
 
 <h2 align="center">Enviroment</h2>
 
