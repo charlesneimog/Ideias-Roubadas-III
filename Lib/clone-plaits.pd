@@ -17,7 +17,7 @@
 #X obj 378 224 % 360;
 #X obj 45 65 t f f, f 5;
 #X obj 120 146 expr random(1 \, 15);
-#X obj 47 364 /~ 3;
+#X obj 47 364 /~ 4;
 #X connect 0 0 8 0;
 #X connect 3 0 4 0;
 #X connect 4 0 6 0;
