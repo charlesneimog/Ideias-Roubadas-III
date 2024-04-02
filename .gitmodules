@@ -1,0 +1,9 @@
+[submodule "modules/py4pd-upic"]
+	path = modules/py4pd-upic
+	url = git@github.com:charlesneimog/py4pd-upic.git
+[submodule "modules/py4pd-orchidea"]
+	path = modules/py4pd-orchidea
+	url = git@github.com:charlesneimog/py4pd-orchidea
+[submodule "modules/SOFAlizer"]
+	path = modules/SOFAlizer
+	url = https://github.com/charlesneimog/SOFAlizer-for-pd

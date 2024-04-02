@@ -9,7 +9,7 @@
 #X msg 7 235 score.svg;
 #X msg 87 235 play;
 #X msg 133 235 stop;
-#N canvas 6 556 471 486 config 0;
+#N canvas 6 556 471 486 config 1;
 #X obj 4 4 py4pd -lib py4pd-upic;
 #X obj 4 26 py4pd -lib orchidea;
 #X obj 186 4 declare -lib pd-partialtrack/pd-partialtrack/partialtrack;
@@ -25,10 +25,9 @@
 #X obj 4 69 declare -path else;
 #X obj 538 4 declare -path pd-soundtouch;
 #X obj 4 89 declare -path Lib;
-#X obj 230 111;
 #X msg 4 177 read -resize Resources/small.aif ir1;
-#X connect 7 0 13 0;
-#X connect 13 0 6 0;
+#X connect 7 0 12 0;
+#X connect 12 0 6 0;
 #X restore 263 10 pd config;
 #X obj 7 291 readsvg;
 #X obj 7 322 svg2pd;
