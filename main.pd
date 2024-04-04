@@ -9,7 +9,7 @@
 #X msg 7 235 score.svg;
 #X msg 87 235 play;
 #X msg 133 235 stop;
-#N canvas 6 556 471 486 config 1;
+#N canvas 6 556 471 486 config 0;
 #X obj 4 4 py4pd -lib py4pd-upic;
 #X obj 4 26 py4pd -lib orchidea;
 #X obj 186 4 declare -lib pd-partialtrack/pd-partialtrack/partialtrack;
@@ -496,7 +496,9 @@
 #X restore 699 354 pd bartok-harp;
 #X obj 15 152 route #ff0000 #ffff00 #ff00ff #00ffff #00ff00 #808000 #800080 #008000, f 158;
 #X obj 907 355 print NOT-FOUND;
-#X connect 0 0 19 0;
+#X obj 15 35 list split 1;
+#X obj 36 73 list trim;
+#X connect 0 0 21 0;
 #X connect 1 0 3 1;
 #X connect 2 0 4 1;
 #X connect 5 0 6 1;
@@ -523,6 +525,8 @@
 #X connect 19 6 15 0;
 #X connect 19 7 18 0;
 #X connect 19 8 20 0;
+#X connect 21 1 22 0;
+#X connect 22 0 19 0;
 #X restore 7 452 pd EllipseIntruments;
 #X connect 0 0 4 0 32.................R.........fD.........PB....;
 #X connect 1 0 4 0 32.................L....D6+++OC....w9+++SB....;
