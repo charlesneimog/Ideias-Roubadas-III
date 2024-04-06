@@ -1,10 +1,18 @@
 <h1 align="center">Ideias Roubadas III</h1>
 
+<p align="center">
+  <a href="https://nucleomusicanova.bandcamp.com/album/mix-fof-cv-bang">
+    <img src="Resources/Capa.jpg" alt="Logo" width=300 height=300>
+  </a>
+</p>
+
 `Ideias Roubadas III` is a work inspired by the proposal of the [UPIC](https://en.wikipedia.org/wiki/UPIC) system, developed by Iannis Xenakis in collaboration with the _Centre d'Etudes de Mathématique et Automatique Musicales (CEMAMu)_ in Paris. Like UPIC, this piece employs an approach that manipulates visual elements to generate music using PureData to render the audio. I employ the concept of instruments (inspired by Csound) to render the sounds. Each color represents a sound or a set of instructions for spacialization, envelope, and others.
 
 <h2 align="center">Score/Draw</h2>
 
+<p align="center">
 <img align="center" src="https://github.com/charlesneimog/Ideias-Roubadas-III/raw/main/score.svg" alt="Image Description">
+</p>
 
 <h2 align="center">Enviroment</h2>
 
