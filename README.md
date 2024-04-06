@@ -1,7 +1,7 @@
 <h1 align="center">Ideias Roubadas III</h1>
 
 <p align="center">
-  <a href="https://nucleomusicanova.bandcamp.com/album/mix-fof-cv-bang">
+  <a href="https://nucleomusicanova.bandcamp.com/track/ideias-roubadas-iii">
     <img src="Resources/Capa.jpg" alt="Logo" width=300 height=300>
   </a>
 </p>
